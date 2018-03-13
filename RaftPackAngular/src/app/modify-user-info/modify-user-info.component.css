@@ -1,0 +1,45 @@
+.form-horizontal{
+    width: 45%;
+    align-content: center;
+}
+
+.form-control{
+   align-content: center;
+   position: center;
+   left : 90px;
+   width: 400px;
+}
+
+#pic{
+    width: 200px;
+}
+
+.alert.alert-info.alert-dismissable{
+    width:600px;
+}
+
+h3{
+    position : center;
+    right : 110px;
+
+}
+
+#raftpacklogo{
+    height:70px;
+    width:70px;
+}
+
+.btn.btn-primary{
+    position: relative;
+    left : 85px;
+}
+
+.btn.btn-default{
+    position: relative;
+    left : 85px;
+    width : 140px;
+}
+
+.avatar.img-circle{
+    height : 200px;
+}
