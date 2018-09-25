@@ -22,8 +22,6 @@ export class ModifyUserInfoComponent implements OnInit {
 
   }
   getUserFormData(profilepic,firstname, lastname, useremail, gender, biography) {
-//Since I have only tomight to work on this - I will not go into trying to find the means fo 
-// getting the session User Id. I assume that the id is needed. 
     this.userform = {
       userId: this.userId, profileImage: profilepic,firstname: firstname, lastname: lastname, useremail: useremail,
       gender: gender, biography: biography};

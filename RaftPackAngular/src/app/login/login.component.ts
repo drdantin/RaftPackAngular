@@ -6,6 +6,7 @@ import { LoginService } from '../services/login.service';
 import { User } from '../models/user.model';
 import { Message } from '../models/message.model';
 import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -25,8 +26,8 @@ export class LoginComponent implements OnInit {
   getUserCredentials(): void {
     this.loginService.login(this.user)
       .subscribe(
-        user => this.user = user,
-        error => console.log(`Error: ${error}`)
+      user => this.user = user,
+      error => console.log(`Error: ${error}`)
       );
     if (this.user.userId > 0) {
       console.log(this.user.user_email + ' \n ' + this.user.user_password);

@@ -1,12 +1,10 @@
 
-.badge.badge-default{
-    background-color : saddlebrown;
-    padding-left: 30px;
-    padding-right: 30px;
-    
+.container{
+    background-color: blue;
+    width: 2000px;
+}
+h1{
+    color: brown;
 }
 
-.headerColor{
-    background-color : rgb(24, 24, 136);
-    height : 55px;    
-}
+
